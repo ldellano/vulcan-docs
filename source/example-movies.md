@@ -941,7 +941,7 @@ A few things to note:
 - We only want to show the “New Movie” form when a user actually *can* submit a new movie, so we'll make use of the `create` mutation's `check` function to figure this out.
 - We need to access the current user to perform this check, so we'll use the `withCurrentUser` higher-order component. 
 
-Let's add the form component to `movies.jsx`:
+Let's add the form component to `MoviesList.jsx`:
 
 ```js
 import React, { PropTypes, Component } from 'react';
